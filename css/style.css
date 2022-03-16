@@ -327,8 +327,16 @@ body{
     }
 
     .trait{
-        width: 30px;   
+        width: 25px;   
     }
+    #temoignagnes, #tarifs, #fonctionnalites{
+        font-size: 14px;
+    }
+
+}
+
+#temoignages, #tarifs, #fonctionnalites{
+    font-size: 40x;
 }
 
 @media (min-width: 579px) and (max-width: 768px) {
@@ -373,7 +381,11 @@ body{
     }
 
     .trait{
-        width: 100px;   
+        width: 50px;   
+    }
+
+    #temoignagnes, #tarifs, #fonctionnalites{
+        font-size: 20px;
     }
 }
 
